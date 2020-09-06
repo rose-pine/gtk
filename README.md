@@ -28,8 +28,16 @@ cd Rose-Pine-GTK-3-Theme/
 sudo cp Rose-Pine/ ~/.themes/
 cd ..
 sudo rm -r Rose-Pine-GTK-3-Theme/
+
 ```
 
 
 
-then apply via your chosen method (I use Gnome-Tweaks). 
+then apply via your chosen method (I use Gnome-Tweaks).  If you're using GNOME, you can also run
+
+```sh
+gsettings set org.gnome.desktop.interface gtk-theme "Rose-Pine"
+gsettings set org.gnome.desktop.wm.preferences theme "Rose-Pine"
+
+```
+
