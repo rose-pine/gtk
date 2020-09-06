@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Rosé Pine
+Comment=Aah. Simplicity.
+Encoding=UTF-8
+ButtonLayout=:maximize,minimize,close
+
+[X-GNOME-Metatheme]
+GtkTheme=Rosé Pine
+MetacityTheme=Rosé Pine
+IconTheme=Ozon
+ButtonLayout=:maximize,minimize,close
