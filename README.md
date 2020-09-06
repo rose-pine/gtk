@@ -10,7 +10,7 @@ Future plans:
 
 Screenshots:
 
-![Fullscreen](/home/kainoa/.config/Typora/typora-user-images/image-20200905180535278.png)
+![Fullscreen](https://cdn.discordapp.com/attachments/635625917623828520/750116874980818964/unknown.png)
 
 ![Single Window](https://camo.githubusercontent.com/34fc850da9909e0e684090da38b7d1c5ee07968a/68747470733a2f2f692e696d6775722e636f6d2f746c5a743158382e706e67)
 
