@@ -1,7 +1,8 @@
 # Rosé Pine GTK 3 Theme
  GTK 3 Theme for the colorscheme Rosé Pine
-[![Get it on pling](https://www.pling.com/p/1419252)](https://img.shields.io/badge/Get%20it%20on-Pling!-%23f9711b)
+
 [![Get it on pling](https://img.shields.io/badge/Get%20it%20on-Pling!-%23f9711b)](https://www.pling.com/p/1419252)
+
 Loosely based off of Ant GTK
 
 Future plans:
