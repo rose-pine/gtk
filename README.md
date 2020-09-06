@@ -18,4 +18,6 @@ Screenshots:
 
 ![Buttons Off](https://i.imgur.com/xYurQaL.png)
 
-To install, move the `Rosé Pine.tar.xz` to `~/.themes`, extract it, and apply via your chosen method (I use Gnome-Tweaks). 
+Fetch featured is my own fetch script [CalcFetch](https://github.com/ThatOneCalculator/CalcFetch/)
+
+To install, move `Rosé Pine.tar.xz` to `~/.themes`, extract it, and apply via your chosen method (I use Gnome-Tweaks). 
