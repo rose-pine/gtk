@@ -8,7 +8,7 @@ Fetch featured is my own fetch script [CalcFetch](https://github.com/ThatOneCalc
 Installation:
 
 ```sh
-git clone https://github.com/ThatOneCalculator/Rose-Pine-GTK-3-Theme.git
+git clone https://github.com/rose-pine/Rose-Pine-GTK-3-Theme/git
 cd Rose-Pine-GTK-3-Theme/
 cp -r Rose-Pine/ ~/.themes/
 cd ..
