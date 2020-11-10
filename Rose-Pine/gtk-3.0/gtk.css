@@ -8,12 +8,12 @@
 
 /* default color scheme */
 @define-color bg_color #1f1d29;
-@define-color fg_color #f8f8f2;
+@define-color fg_color #f9f9f9;
 @define-color base_color #1f1d29;
-@define-color text_color #f8f8f2;
+@define-color text_color #f9f9f9;
 @define-color borders transparent;
 @define-color header_bg_color #1f1d29;
-@define-color header_fg_color #f8f8f2;
+@define-color header_fg_color #f9f9f9;
 /*@define-color selected_bg_color #00b0ff;*/
 @define-color selected_bg_color #ff79c6;
 /*@define-color selected_bg_color #33CBBF;

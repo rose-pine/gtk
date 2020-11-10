@@ -4,7 +4,7 @@ $main_dark: $bg_color;
 $gray:#1f1d29;
 $fg_color: #C3A5E6;
 $dracula:#1f1d29;
-$topbar_color: #f8f8f2;
+$topbar_color: #f9f9f9;
 
 
 $orange: #EABBB9;
@@ -18,7 +18,7 @@ $teal: #9BCED7;
 $g1: transparentize($purple, 0.5);
 $g2: transparentize($purple, 0.5);
 
-$selected_fg_color: #f8f8f2;
+$selected_fg_color: #f9f9f9;
 $selected_bg_color: transparentize($purple, 0.5);
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken($bg_color, 3%);
