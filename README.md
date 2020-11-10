@@ -3,11 +3,6 @@
 
 Loosely based off of Ant GTK
 
-Future plans:
-
-- [ ] Hover buttons with Rose design
-- [ ] Make GNOME top bar more consistent
-
 Fetch featured is my own fetch script [CalcFetch](https://github.com/ThatOneCalculator/CalcFetch/)
 
 Installation:
