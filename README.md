@@ -13,7 +13,7 @@ Loosely based off of Ant GTK
 
 Fetch featured is my own fetch script [NerdFetch](https://github.com/ThatOneCalculator/NerdFetch)
 
-Installation:
+### Instructions
 
 ```sh
 git clone https://github.com/rose-pine/Rose-Pine-GTK-3-Theme/git
@@ -36,7 +36,7 @@ gsettings set org.gnome.desktop.wm.preferences theme "Rose-Pine"
 
 
 
-Screenshots:
+### Screenshots
 
 ![All GTK Applications](https://cdn.discordapp.com/attachments/671117418189422594/751990416169107506/Rose-Screenshot_000.png)
 
