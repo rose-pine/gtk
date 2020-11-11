@@ -1,4 +1,9 @@
-# Rosé Pine GTK 3 Theme
+<img src="https://github.com/rose-pine/rose-pine-theme/blob/master/assets/icon.png" width="64" />
+
+# Rosé Pine
+
+All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
+
 [![Get it on pling](https://img.shields.io/badge/Get%20it%20on-Pling!-%23f9711b)](https://www.pling.com/p/1419252)
 [![](https://img.shields.io/badge/Rosé%20Pine%20Theme-191724)](https://github.com/rose-pine/rose-pine-theme)
 
@@ -6,7 +11,7 @@ GTK 3 Theme for the colorscheme Rosé Pine
 
 Loosely based off of Ant GTK
 
-Fetch featured is my own fetch script [CalcFetch](https://github.com/ThatOneCalculator/CalcFetch/)
+Fetch featured is my own fetch script [NerdFetch](https://github.com/ThatOneCalculator/NerdFetch)
 
 Installation:
 
