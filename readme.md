@@ -11,7 +11,7 @@ All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 
 Loosely based off of Ant GTK
 
-Fetch featured is my own fetch script [NerdFetch](https://github.com/ThatOneCalculator/NerdFetch)
+Fetch featured is [NerdFetch](https://github.com/ThatOneCalculator/NerdFetch)
 
 ## Usage
 
@@ -20,7 +20,7 @@ git clone https://github.com/rose-pine/Rose-Pine-GTK-3-Theme/git
 cd Rose-Pine-GTK-3-Theme/
 cp -r Rose-Pine/ ~/.themes/
 cd ..
-sudo rm -r Rose-Pine-GTK-3-Theme/
+rm -rf Rose-Pine-GTK-3-Theme/
 
 ```
 
