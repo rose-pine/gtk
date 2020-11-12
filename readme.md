@@ -1,19 +1,19 @@
 <img src="https://github.com/rose-pine/rose-pine-theme/blob/master/assets/icon.png" width="64" />
 
-# Rosé Pine
+# Rosé Pine for GTK
+
+> Maintained by our lovely community ☺️
 
 All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 
-[![Get it on pling](https://img.shields.io/badge/Get%20it%20on-Pling!-%23f9711b)](https://www.pling.com/p/1419252)
 [![](https://img.shields.io/badge/Rosé%20Pine%20Theme-191724)](https://github.com/rose-pine/rose-pine-theme)
-
-GTK 3 Theme for the colorscheme Rosé Pine
+[![Get it on pling](https://img.shields.io/badge/Get%20it%20on-Pling!-%23f9711b)](https://www.pling.com/p/1419252)
 
 Loosely based off of Ant GTK
 
 Fetch featured is my own fetch script [NerdFetch](https://github.com/ThatOneCalculator/NerdFetch)
 
-### Instructions
+## Usage
 
 ```sh
 git clone https://github.com/rose-pine/Rose-Pine-GTK-3-Theme/git
@@ -24,9 +24,7 @@ sudo rm -r Rose-Pine-GTK-3-Theme/
 
 ```
 
-
-
-then apply via your chosen method (I use Gnome-Tweaks).  If you're using GNOME, you can also run
+then apply via your chosen method (I use Gnome-Tweaks). If you're using GNOME, you can also run
 
 ```sh
 gsettings set org.gnome.desktop.interface gtk-theme "Rose-Pine"
@@ -34,9 +32,7 @@ gsettings set org.gnome.desktop.wm.preferences theme "Rose-Pine"
 
 ```
 
-
-
-### Screenshots
+## Screenshots
 
 ![All GTK Applications](https://cdn.discordapp.com/attachments/671117418189422594/751990416169107506/Rose-Screenshot_000.png)
 
