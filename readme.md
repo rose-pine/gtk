@@ -16,7 +16,7 @@ Fetch featured is [NerdFetch](https://github.com/ThatOneCalculator/NerdFetch)
 ## Usage
 
 ```sh
-git clone https://github.com/rose-pine/Rose-Pine-GTK-3-Theme/git
+git clone https://github.com/rose-pine/Rose-Pine-GTK-3-Theme.git
 cd Rose-Pine-GTK-3-Theme/
 cp -r Rose-Pine/ ~/.themes/
 cd ..
