@@ -47,4 +47,4 @@ gsettings set org.gnome.desktop.wm.preferences theme "Rose-Pine"
 
 ## Thanks to 
 
-- [ThatOneCalculator](https://twitter.com/that1calculator)
+- [ThatOneCalculator](https://github.com/thatonecalculator)
