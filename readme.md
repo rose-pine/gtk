@@ -43,3 +43,8 @@ gsettings set org.gnome.desktop.wm.preferences theme "Rose-Pine"
 ![Buttons On](https://i.imgur.com/liNeNpf.png)
 
 ![Buttons Off](https://i.imgur.com/xYurQaL.png)
+
+
+## Thanks to 
+
+- [ThatOneCalculator](https://twitter.com/that1calculator)
