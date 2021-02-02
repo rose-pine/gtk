@@ -37,7 +37,7 @@ gsettings set org.gnome.desktop.wm.preferences theme "Rose-Pine"
 
 ```
 
-## Screenshots
+## Gallery
 
 ![All GTK Applications](https://cdn.discordapp.com/attachments/671117418189422594/751990416169107506/Rose-Screenshot_000.png)
 
