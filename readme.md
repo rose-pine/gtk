@@ -12,11 +12,6 @@
 </p>
 
 
-> Maintained by our lovely community ☺️
-
-All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
-
-[![](https://img.shields.io/badge/Rosé%20Pine%20Theme-191724)](https://github.com/rose-pine/rose-pine-theme)
 [![Get it on pling](https://img.shields.io/badge/Get%20it%20on-Pling!-%23f9711b)](https://www.pling.com/p/1419252)
 
 Loosely based off of Ant GTK
