@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Rose Pine Dawn Arc
+Comment=Rose Pine Dawn Theme Based on Arc
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Rose Pine Dawn Arc
+IconTheme=gnome
+CursorTheme=DMZ-Black
+ButtonLayout=menu:minimize,maximize,close
