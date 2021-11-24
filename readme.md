@@ -11,43 +11,31 @@
     </a>
 </p>
 
-
-[![Get it on pling](https://img.shields.io/badge/Get%20it%20on-Pling!-%23f9711b)](https://www.pling.com/p/1419252)
-
-Loosely based off of Ant GTK
-
-Fetch featured is [NerdFetch](https://github.com/ThatOneCalculator/NerdFetch)
-
 ## Usage
 
-```sh
-git clone https://github.com/rose-pine/Rose-Pine-GTK-3-Theme.git
-cd Rose-Pine-GTK-3-Theme/
-cp -r Rose-Pine/ ~/.themes/
-cd ..
-rm -rf Rose-Pine-GTK-3-Theme/
-
-```
-
-then apply via your chosen method (I use Gnome-Tweaks). If you're using GNOME, you can also run
-
-```sh
-gsettings set org.gnome.desktop.interface gtk-theme "Rose-Pine"
-gsettings set org.gnome.desktop.wm.preferences theme "Rose-Pine"
-
-```
+1. Clone/download repo
+2. Move all folders ending in `-gtk` into `~/.themes/` and all folders ending in `-icons` into `~/.icons`
+3. Apply with GNOME Tweaks/LXAppearance/xsettingsd/`~/.config/gtk-3.0/settings.init` or whatever you prefer.
 
 ## Gallery
 
-![All GTK Applications](https://cdn.discordapp.com/attachments/671117418189422594/751990416169107506/Rose-Screenshot_000.png)
+### Rosé Pine
 
-![Fullscreen](https://cdn.discordapp.com/attachments/635625917623828520/750116874980818964/unknown.png)
+![Screenshot_2021-11-23-08-08-12_2560x1440](https://user-images.githubusercontent.com/44733677/143173299-73b9d34b-d7cc-43f0-b34e-44de6f27f07f.png)
 
-![Single Window](https://camo.githubusercontent.com/34fc850da9909e0e684090da38b7d1c5ee07968a/68747470733a2f2f692e696d6775722e636f6d2f746c5a743158382e706e67)
+![Screenshot_2021-11-23-08-07-10_2560x1440](https://user-images.githubusercontent.com/44733677/143173186-813bcdb8-e121-4e60-8491-c5bebdb8b3a5.png)
 
-![Buttons On](https://i.imgur.com/liNeNpf.png)
+### Rosé Pine Moon
 
-![Buttons Off](https://i.imgur.com/xYurQaL.png)
+![Screenshot_2021-11-23-08-08-37_2560x1440](https://user-images.githubusercontent.com/44733677/143173404-72792f5a-e63b-4078-bc83-6fe47c9cb21c.png)
+
+![Screenshot_2021-11-23-08-07-32_2560x1440](https://user-images.githubusercontent.com/44733677/143173233-cdd23854-a751-4bd7-9e61-2003ecb8a3fa.png)
+
+### Rosé Pine Dawn
+
+![Screenshot_2021-11-23-08-09-39_2560x1440](https://user-images.githubusercontent.com/44733677/143173438-1ed9e02b-5264-4237-9657-eb246bdc3a2e.png)
+
+![Screenshot_2021-11-23-08-07-54_2560x1440](https://user-images.githubusercontent.com/44733677/143173260-4450625c-5a34-4151-9e0e-7bb920f87a44.png)
 
 
 ## Thanks to 
