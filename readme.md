@@ -13,9 +13,10 @@
 
 ## Usage
 
-1. Clone/download repo
-2. Move all folders ending in `-gtk` into `~/.themes/` and all folders ending in `-icons` into `~/.icons`
-3. Apply with GNOME Tweaks/LXAppearance/xsettingsd/`~/.config/gtk-3.0/settings.init` or whatever you prefer.
+1. Go into the **[releases](https://github.com/rose-pine/gtk/releases/tag/v2.0.0)** to download tarballs of both all the themes and all the icons.
+2. Extract the tarballs.
+3. Move all folders inside of `AllRosePineThemesGTK` into `~/.themes/` and all folders inside of `AllRosePineThemesIcons` into `~/.icons`
+4. Apply with GNOME Tweaks/LXAppearance/xsettingsd/`~/.config/gtk-3.0/settings.init` or whatever you prefer.
 
 ## Gallery
 
