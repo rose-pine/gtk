@@ -14,7 +14,7 @@
 ## Usage
 
 1. Go into the **[releases](https://github.com/rose-pine/gtk/releases/tag/v2.0.0)** to download tarballs of both all the GTK themes and all the icons, `AllRosePineThemesGTK.tar.gz` and `AllRosePineThemesIcons.tar.gz` respectively. Then, extract the tarballs.
-3. Move all folders inside of `AllRosePineThemesGTK` into `~/.themes/` and all folders inside of `AllRosePineThemesIcons` into `~/.icons`
+3. Move all folders inside of `AllRosePineThemesGTK` into `~/.themes/` and all folders inside of `AllRosePineThemesIcons` into `~/.icons/`.
 4. Apply with GNOME Tweaks/LXAppearance/xsettingsd.
 
 ## Gallery
