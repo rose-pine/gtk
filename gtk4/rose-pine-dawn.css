@@ -1,0 +1,39 @@
+
+@define-color accent_bg_color #907aa9;
+@define-color accent_fg_color #faf4ed;
+@define-color accent_color #907aa9;
+
+@define-color destructive_bg_color #b4637a; 
+@define-color destructive_fg_color #faf4ed;
+@define-color destructive_color #b4637a;
+
+@define-color success_bg_color #56949f;
+@define-color success_fg_color #575279;
+@define-color success_color #56949f;
+
+@define-color warning_bg_color #ea9d34;
+@define-color warning_fg_color #575279;
+@define-color warning_color #ea9d34;
+
+@define-color error_bg_color #b4637a;
+@define-color error_fg_color #575279;
+@define-color error_color #b4637a;
+
+@define-color window_bg_color #faf4ed;
+@define-color window_fg_color #575279;
+
+@define-color view_bg_color #f2e9e1;
+@define-color view_fg_color #575279;
+
+@define-color headerbar_bg_color #faf4ed;
+@define-color headerbar_fg_color #575279;
+@define-color headerbar_backdrop_color @window_bg_color;
+@define-color headerbar_shade_color #faf4ed;
+
+
+@define-color card_bg_color #fffaf3;
+@define-color card_fg_color #575279;
+@define-color card_shade_color #fffaf3;
+
+@define-color popover_bg_color #f2e9e1;
+@define-color popover_fg_color #575279;
