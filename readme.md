@@ -12,14 +12,26 @@
 </p>
 
 ## Usage
-**Follow the *italicised* steps for GTK3 and GTK4, omit them for just GTK3.**
-1. Download the latest release from [this page](https://github.com/rose-pine/gtk/releases/). You're going to need `gtk3.tar.gz`, one of icon packs (`rose-pine-\<variant>-icons.tar.gz`) *and `gtk4.tar.gz`*.
-2. Extract the contents of `gtk3.tar.gz` into `~/.themes`, the contents of your chosen icon pack into `~/.icons`. *Extract the gtk4.tar.gz tarball and rename your chosen variant's .css file to `gtk.css`. Paste the file into `~/.config/gtk-4.0` (the directory might not exist at first, create it if it doesn't.*
-3. Apply with GNOME Tweaks/LXAppearance/xsettingsd. *Restart your libadwaita apps. We'd recommend setting your style to Light - otherwise the GTK3 theme will have flipped colors.*
+
+### GTK4
+
+1. Download the [latest release](https://github.com/rose-pine/gtk/releases) of `gtk4.tar.gz` and an icon pack of your choosing, e.g. `rose-pine-icons.tar.gz`
+2. Extract `rose-pine-icons.tar.gz` to `~/.icons`
+3. Move and rename the desired variant's css file to `~/.config/gtk-4.0/gtk.css`
+4. Apply via GNOME Tweaks, LXAppearance, xsettingsd or similar
+5. Restart all libadwaita apps
+
+### GTK3
+
+1. Download the [latest release](https://github.com/rose-pine/gtk/releases) of `gtk3.tar.gz` and an icon pack of your choosing, e.g. `rose-pine-icons.tar.gz`
+2. Extract `gtk3.tar.gz` to `~/.themes` and `rose-pine-icons.tar.gz` to `~/.icons`
+3. Apply via GNOME Tweaks, LXAppearance, xsettingsd or similar
+
+> We recommend changing your style to "Light" to avoid reversed colours
 
 ## [Gallery](gallery.md)
 
-## Thanks to 
+## Thanks to
 
 - [ThatOneCalculator](https://github.com/thatonecalculator)
 - [Ash](https://github.com/maybork)
