@@ -12,33 +12,14 @@
 </p>
 
 ## Usage
+**Follow the *italicised* steps for GTK3 and GTK4, omit them for just GTK3.**
+1. Download the latest release from [this page](https://github.com/rose-pine/gtk/releases/). You're going to need `gtk3.tar.gz`, one of icon packs (`rose-pine-\<variant>-icons.tar.gz`) *and `gtk4.tar.gz`*.
+2. Extract the contents of `gtk3.tar.gz` into `~/.themes`, the contents of your chosen icon pack into `~/.icons`. *Extract the gtk4.tar.gz tarball and rename your chosen variant's .css file to `gtk.css`. Paste the file into `~/.config/gtk-4.0` (the directory might not exist at first, create it if it doesn't.*
+3. Apply with GNOME Tweaks/LXAppearance/xsettingsd. *Restart your libadwaita apps. We'd recommend setting your style to Light - otherwise the GTK3 theme will have flipped colors.*
 
-1. Go into the **[releases](https://github.com/rose-pine/gtk/releases/tag/v2.0.0)** to download tarballs of both all the GTK themes and all the icons, `AllRosePineThemesGTK.tar.gz` and `AllRosePineThemesIcons.tar.gz` respectively. Then, extract the tarballs.
-3. Move all folders inside of `AllRosePineThemesGTK` into `~/.themes/` and all folders inside of `AllRosePineThemesIcons` into `~/.icons/`.
-4. Apply with GNOME Tweaks/LXAppearance/xsettingsd.
-
-## Gallery
-
-### Rosé Pine
-
-![Screenshot_2021-11-23-08-08-12_2560x1440](https://user-images.githubusercontent.com/44733677/143173299-73b9d34b-d7cc-43f0-b34e-44de6f27f07f.png)
-
-![Screenshot_2021-11-23-08-07-10_2560x1440](https://user-images.githubusercontent.com/44733677/143173186-813bcdb8-e121-4e60-8491-c5bebdb8b3a5.png)
-
-### Rosé Pine Moon
-
-![Screenshot_2021-11-23-08-08-37_2560x1440](https://user-images.githubusercontent.com/44733677/143173404-72792f5a-e63b-4078-bc83-6fe47c9cb21c.png)
-
-![Screenshot_2021-11-23-08-07-32_2560x1440](https://user-images.githubusercontent.com/44733677/143173233-cdd23854-a751-4bd7-9e61-2003ecb8a3fa.png)
-
-### Rosé Pine Dawn
-
-![Screenshot_2021-11-23-08-09-39_2560x1440](https://user-images.githubusercontent.com/44733677/143173438-1ed9e02b-5264-4237-9657-eb246bdc3a2e.png)
-
-![Screenshot_2021-11-23-08-07-54_2560x1440](https://user-images.githubusercontent.com/44733677/143173260-4450625c-5a34-4151-9e0e-7bb920f87a44.png)
-
+## [Gallery](gallery.md)
 
 ## Thanks to 
 
 - [ThatOneCalculator](https://github.com/thatonecalculator)
-- [maybork](https://github.com/maybork)
+- [Ash](https://github.com/maybork)
