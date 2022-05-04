@@ -40,4 +40,4 @@
 ## Thanks to 
 
 - [ThatOneCalculator](https://github.com/thatonecalculator)
-- [Ash](https://github.com/maybork)
+
