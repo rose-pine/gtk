@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
     <h2 align="center">Rosé Pine for GTK</h2>
 </p>
@@ -12,15 +12,14 @@
 </p>
 
 ## Usage
-
-1. Go into the **[releases](https://github.com/rose-pine/gtk/releases/tag/v2.0.0)** to download tarballs of both all the GTK themes and all the icons, `AllRosePineThemesGTK.tar.gz` and `AllRosePineThemesIcons.tar.gz` respectively. Then, extract the tarballs.
-3. Move all folders inside of `AllRosePineThemesGTK` into `~/.themes/` and all folders inside of `AllRosePineThemesIcons` into `~/.icons/`.
-4. Apply with GNOME Tweaks/LXAppearance/xsettingsd.
+**Follow the *italicised* steps for GTK3 and GTK4, omit them for just GTK3.**
+1. Download the latest release from [this page](https://github.com/rose-pine/gtk/releases/). You're going to need `gtk3.tar.gz`, one of icon packs (`rose-pine-\<variant>-icons.tar.gz`) *and `gtk4.tar.gz`*.
+2. Extract the contents of `gtk3.tar.gz` into `~/.themes`, the contents of your chosen icon pack into `~/.icons`. *Extract the gtk4.tar.gz tarball and rename your chosen variant's .css file to `gtk.css`. Paste the file into `~/.config/gtk-4.0` (the directory might not exist at first, create it if it doesn't.*
+3. Apply with GNOME Tweaks/LXAppearance/xsettingsd. *Restart your libadwaita apps. We'd recommend setting your style to Light - otherwise the GTK3 theme will have flipped colors.*
 
 ## Gallery
 
 ### Rosé Pine
-
 ![Screenshot_2021-11-23-08-08-12_2560x1440](https://user-images.githubusercontent.com/44733677/143173299-73b9d34b-d7cc-43f0-b34e-44de6f27f07f.png)
 
 ![Screenshot_2021-11-23-08-07-10_2560x1440](https://user-images.githubusercontent.com/44733677/143173186-813bcdb8-e121-4e60-8491-c5bebdb8b3a5.png)
@@ -41,3 +40,4 @@
 ## Thanks to 
 
 - [ThatOneCalculator](https://github.com/thatonecalculator)
+- [Ash](https://github.com/maybork)
