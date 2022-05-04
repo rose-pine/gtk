@@ -18,8 +18,7 @@
 1. Download the [latest release](https://github.com/rose-pine/gtk/releases) of `gtk4.tar.gz` and an icon pack of your choosing, e.g. `rose-pine-icons.tar.gz`
 2. Extract `rose-pine-icons.tar.gz` to `~/.icons`
 3. Move and rename the desired variant's css file to `~/.config/gtk-4.0/gtk.css`
-4. Apply via GNOME Tweaks, LXAppearance, xsettingsd or similar
-5. Restart all libadwaita apps
+4. Apply via GNOME Tweaks, LXAppearance, xsettingsd or similar and restart libadwaita apps
 
 ### GTK3
 
