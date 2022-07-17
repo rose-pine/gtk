@@ -17,7 +17,21 @@
 2. Extract the contents of `gtk3.tar.gz` into `~/.themes`, the contents of your chosen icon pack into `~/.icons`. *Extract the gtk4.tar.gz tarball and rename your chosen variant's .css file to `gtk.css`. Paste the file into `~/.config/gtk-4.0` (the directory might not exist at first, create it if it doesn't.*
 3. Apply with GNOME Tweaks/LXAppearance/xsettingsd. *Restart your libadwaita apps. We'd recommend setting your style to Light - otherwise the GTK3 theme will have flipped colors.*
 
-## [Gallery](gallery.md)
+## Gallery
+
+**Rosé Pine**
+
+![Rosé Pine settings, files, and calculator apps](https://user-images.githubusercontent.com/82605611/179361430-89f52a27-b731-44b0-bbba-9fb35567f051.png)
+
+**Rosé Pine Moon**
+
+![Rosé Pine Moon settings, files, and calculator apps](https://user-images.githubusercontent.com/82605611/179361439-d4ec62dd-aa1b-41dd-8f03-6102db1476f7.png)
+
+**Rosé Pine Dawn**
+
+![Rosé Pine Dawn settings, files, and calculator apps](https://user-images.githubusercontent.com/82605611/179361441-7b00c9fe-b43c-4ae2-8043-2751d3d5ad71.png)
+
+[But wait, there's more!](gallery.md)
 
 ## Thanks to 
 
