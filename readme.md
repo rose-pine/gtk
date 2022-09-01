@@ -12,6 +12,15 @@
 </p>
 
 ## Usage
+
+### [Gradience](https://gradienceteam.github.io/)
+
+1. Go to the presets menu (middle button on top right)
+2. Go to Explore and search "Rosé Pine"
+3. Choose your theme(s), hit the download button then the check button
+
+### Manual
+
 **Follow the *italicised* steps for GTK3 and GTK4, omit them for just GTK3.**
 1. Download the latest release from [this page](https://github.com/rose-pine/gtk/releases/). You're going to need `gtk3.tar.gz`, one of icon packs (`rose-pine-\<variant>-icons.tar.gz`) *and `gtk4.tar.gz`*.
 2. Extract the contents of `gtk3.tar.gz` into `~/.themes`, the contents of your chosen icon pack into `~/.icons`. *Extract the gtk4.tar.gz tarball and rename your chosen variant's .css file to `gtk.css`. Paste the file into `~/.config/gtk-4.0` (the directory might not exist at first, create it if it doesn't.*
