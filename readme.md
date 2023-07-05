@@ -13,6 +13,14 @@
 
 ## Usage
 
+### Arch-like ([AUR](https://aur.archlinux.org/packages/rose-pine-gtk-theme))
+
+```sh
+yay -S rose-pine-gtk-thene
+```
+
+(Third-party package maintained by @kirasok)
+
 ### [Gradience](https://gradienceteam.github.io/)
 
 1. Go to the presets menu (middle button on top right)
