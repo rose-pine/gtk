@@ -13,13 +13,13 @@
 
 ## Usage
 
-### Arch-like ([AUR](https://aur.archlinux.org/packages/rose-pine-gtk-theme))
+### Arch-like [AUR]((https://aur.archlinux.org/packages/rose-pine-gtk-theme-full))
 
 ```sh
-yay -S rose-pine-gtk-theme
+paru -S rose-pine-gtk-theme-full
 ```
 
-(Third-party package maintained by @kirasok)
+(Third-party package maintained by @picoman)
 
 ### [Gradience](https://gradienceteam.github.io/)
 
