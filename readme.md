@@ -33,18 +33,8 @@ paru -S rose-pine-gtk-theme-full
 
 1. Download the latest release from [releases page](https://github.com/rose-pine/gtk/releases/latest). You're going to need `gtk3.tar.gz`, one of icon packs (`rose-pine-<variant>-icons.tar.gz`) *and `gtk4.tar.gz`*.
 2. Extract the contents of `gtk3.tar.gz` into `~/.themes`, the contents of your chosen icon pack into `~/.icons`. *Extract the `gtk4.tar.gz` tarball and rename your chosen variant's `.css` file to `gtk.css`. Paste the file into `~/.config/gtk-4.0` (the directory might not exist at first, create it if it doesn't).*
-3. Apply with GNOME Tweaks/LXAppearance/xsettingsd. *Restart your libadwaita apps. We'd recommend setting your style to Light - otherwise the GTK3 theme will have flipped colors.*
+3. Apply with GNOME Tweaks or LXAppearance. *Restart your libadwaita apps. We'd recommend setting your style to Light - otherwise the GTK3 theme will have flipped colors.*
 4. For GNOME Shell, compress one of the themes contained in the `gnome_shell` directory, then apply using GNOME Tweaks.
-
-For xsettingsd (`~/.config/xsettingsd/xsettingsd.conf`):
-
-```
-# If your prefer other themes variant, replace the "rose-pine-gtk" with "rose-pine-moon-gtk" or "rose-pine-dawn-gtk"
-Net/ThemeName "rose-pine-gtk"
-
-# If you prefer other icons variant, replace the "rose-pine-icons" with "rose-pine-moon-icons" or "rose-pine-dawn-icons"
-Net/IconThemeName "rose-pine-icons"
-```
 
 Change manually in configuration file (`~/.config/gtk-3.0/settings.ini`):
 
