@@ -37,3 +37,6 @@
 
 @define-color popover_bg_color #393552;
 @define-color popover_fg_color #e0def4;
+
+@define-color sidebar_backdrop_color #393552;
+@define-color sidebar_bg_color #393552;
