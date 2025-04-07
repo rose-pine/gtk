@@ -1,4 +1,3 @@
-
 @define-color accent_bg_color #c4a7e7;
 @define-color accent_fg_color #191724;
 @define-color accent_color #c4a7e7;
@@ -30,7 +29,6 @@
 @define-color headerbar_backdrop_color @window_bg_color;
 @define-color headerbar_shade_color #191724;
 
-
 @define-color card_bg_color #1f1d2e;
 @define-color card_fg_color #e0def4;
 @define-color card_shade_color #1f1d2e;
@@ -41,3 +39,19 @@
 @define-color sidebar_backdrop_color #26233A;
 @define-color sidebar_bg_color #26233A;
 @define-color sidebar_fg_color #e0def4;
+
+/* Target the specific row in the sidebar that's selected */
+.navigation-sidebar row:selected {
+  background-color: #c4a7e7;
+  color: #191724;
+}
+
+/* Target the label in the selected row */
+.navigation-sidebar row:selected .sidebar-label {
+  color: #191724; 
+}
+
+/* Hover effect for non-selected rows */
+.navigation-sidebar row:hover:not(:selected) {
+  background-color: #c4a7e733;
+}
