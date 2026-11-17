@@ -1,3 +1,7 @@
+/* GTK4 base theme: needed when this file is used as a theme (gtk-theme-name) so widgets are styled.
+   Harmless in ~/.config/gtk-4.0/gtk.css. */
+@import url("resource:///org/gtk/libgtk/theme/Default/Default-dark.css");
+
 @define-color accent_bg_color #c4a7e7;
 @define-color accent_fg_color #191724;
 @define-color accent_color #c4a7e7;
@@ -39,6 +43,192 @@
 @define-color sidebar_backdrop_color #26233A;
 @define-color sidebar_bg_color #26233A;
 @define-color sidebar_fg_color #e0def4;
+
+/* Named colors missing from the base set (used by plain GTK4 apps and popups) */
+@define-color dialog_bg_color @window_bg_color;
+@define-color dialog_fg_color @window_fg_color;
+@define-color popover_shade_color @popover_bg_color;
+@define-color shade_color alpha(black, 0.07);
+@define-color scrollbar_outline_color alpha(white, 0.5);
+@define-color borders #403d52;
+@define-color unfocused_borders #403d52;
+
+@define-color theme_bg_color @window_bg_color;
+@define-color theme_fg_color @window_fg_color;
+@define-color theme_base_color @view_bg_color;
+@define-color theme_text_color @view_fg_color;
+@define-color theme_selected_bg_color @accent_bg_color;
+@define-color theme_selected_fg_color @accent_fg_color;
+@define-color theme_unfocused_bg_color @window_bg_color;
+@define-color theme_unfocused_fg_color @window_fg_color;
+@define-color theme_unfocused_base_color @view_bg_color;
+@define-color theme_unfocused_text_color @view_fg_color;
+@define-color theme_unfocused_selected_bg_color @accent_bg_color;
+@define-color theme_unfocused_selected_fg_color @accent_fg_color;
+@define-color bg_color @window_bg_color;
+@define-color fg_color @window_fg_color;
+@define-color base_color @view_bg_color;
+@define-color text_color @view_fg_color;
+@define-color selected_bg_color @accent_bg_color;
+@define-color selected_fg_color @accent_fg_color;
+@define-color insensitive_bg_color @window_bg_color;
+@define-color insensitive_fg_color alpha(@window_fg_color, 0.5);
+@define-color insensitive_base_color @view_bg_color;
+
+/* Window surfaces (adapted from Nordic) so windows, popovers and dialogs are never transparent */
+.background {
+  color: @window_fg_color;
+  background-color: @window_bg_color;
+}
+
+window.csd {
+  box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.5), 0 0 0 1px @borders;
+}
+
+window.csd.popup,
+popover.background {
+  background-color: transparent;
+}
+
+popover.background > contents,
+popover.background > arrow {
+  background-color: @popover_bg_color;
+  color: @popover_fg_color;
+  border: 1px solid @borders;
+  background-clip: padding-box;
+}
+
+window.maximized,
+window.fullscreen,
+window.tiled,
+window.tiled-top,
+window.tiled-left,
+window.tiled-right,
+window.tiled-bottom {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+messagedialog,
+.messagedialog,
+.dialog {
+  background-color: @dialog_bg_color;
+  color: @dialog_fg_color;
+}
+
+tooltip.background {
+  background-color: @popover_bg_color;
+  color: @popover_fg_color;
+  border: 1px solid @borders;
+}
+
+/* Content surfaces: the Default theme hard-codes greys for these */
+.background:backdrop {
+  color: @window_fg_color;
+  background-color: @window_bg_color;
+}
+
+.view, iconview, textview > text, coverflow cover,
+listview, list, columnview.view > header > button,
+notebook > stack:not(:only-child) {
+  color: @view_fg_color;
+  background-color: @view_bg_color;
+}
+
+.view:disabled, iconview:disabled, textview > text:disabled,
+listview:backdrop, list:backdrop, .view:backdrop {
+  background-color: @view_bg_color;
+}
+
+listview, list {
+  border-color: @borders;
+}
+
+.titlebar:not(headerbar), headerbar,
+.titlebar:backdrop:not(headerbar), headerbar:backdrop {
+  color: @headerbar_fg_color;
+  background-color: @headerbar_bg_color;
+  background-image: none;
+  border-color: @borders;
+}
+
+notebook > header,
+notebook > header:backdrop {
+  background-color: @headerbar_bg_color;
+  border-color: @borders;
+}
+
+searchbar > revealer > box, .toolbar {
+  background-color: @window_bg_color;
+  color: @window_fg_color;
+}
+
+/* Accent for plain GTK4 widgets (the Default theme hard-codes its blue) */
+check:checked, radio:checked, check:indeterminate, radio:indeterminate,
+switch:checked {
+  background-image: none;
+  background-color: @accent_bg_color;
+  border-color: @accent_bg_color;
+  color: @accent_fg_color;
+}
+
+progressbar > trough > progress,
+scale > trough > highlight,
+levelbar > trough > block:not(.empty) {
+  background-image: none;
+  background-color: @accent_bg_color;
+  border-color: @accent_bg_color;
+}
+
+button.suggested-action {
+  background-image: none;
+  background-color: @accent_bg_color;
+  border-color: @accent_bg_color;
+  color: @accent_fg_color;
+}
+
+button.suggested-action.flat {
+  background-color: transparent;
+  color: @accent_color;
+}
+
+button.destructive-action {
+  background-image: none;
+  background-color: @destructive_bg_color;
+  border-color: @destructive_bg_color;
+  color: @destructive_fg_color;
+}
+
+.view:selected, textview > text:selected, iconview:selected,
+flowbox > flowboxchild:selected, gridview > child:selected,
+modelbutton.flat:selected, columnview.view:selected, treeview.view:selected,
+row:selected, calendar > grid > label.day-number:selected {
+  background-color: @accent_bg_color;
+  color: @accent_fg_color;
+}
+
+entry:focus-within, spinbutton:focus-within {
+  border-color: @accent_bg_color;
+}
+
+notebook > header.top > tabs > tab:checked { box-shadow: inset 0 -4px @accent_bg_color; }
+notebook > header.bottom > tabs > tab:checked { box-shadow: inset 0 4px @accent_bg_color; }
+notebook > header.left > tabs > tab:checked { box-shadow: inset -4px 0 @accent_bg_color; }
+notebook > header.right > tabs > tab:checked { box-shadow: inset 4px 0 @accent_bg_color; }
+
+/* Neutral controls in Rose Pine colors */
+entry, spinbutton {
+  background-color: @view_bg_color;
+  color: @view_fg_color;
+  border-color: @borders;
+}
+
+button:not(.suggested-action):not(.destructive-action):not(.flat):not(.titlebutton) {
+  background-image: none;
+  background-color: alpha(@window_fg_color, 0.08);
+  border-color: @borders;
+  color: @window_fg_color;
+}
 
 /* Target the specific row in the sidebar that's selected */
 .navigation-sidebar row:selected {
